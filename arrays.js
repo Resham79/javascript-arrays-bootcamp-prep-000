@@ -16,6 +16,7 @@ function addElementToEndOfArray(chocolateBars, candyString) {
   return [...chocolateBars, candyString]
 }
 
+<<<<<<< HEAD
 function destructivelyAddElementToEndOfArray(chocolateBars, candyString) {
   chocolateBars.push(candyString)
   return chocolateBars
@@ -35,3 +36,5 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars) { chocolateBars
 
 function removeElementFromEndOfArray(chocolateBars) { chocolateBars = chocolateBars.slice(0, chocolateBars.length - 1); return chocolateBars
 }
+=======
+>>>>>>> 660cfaba588f21fe9fff2d100dadaff3c80665c9
